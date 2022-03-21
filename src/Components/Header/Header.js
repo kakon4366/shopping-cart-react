@@ -8,8 +8,8 @@ const Header = () => {
                 <a href="/">Logo</a>
                 <nav className='nav-bar'>
                     <ul>
-                        <li>Shop</li>
-                        <li>Cart <span className='cart-count'></span></li>
+                        <li><a href="/shop">Shop</a> </li>
+                        <li><a href="/cart">Cart</a><span className='cart-count'>1</span></li>
                     </ul>
                 </nav>
             </div>
