@@ -9,3 +9,12 @@
 	height: 250px;
 	width: 250px;
 }
+.product h2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-height: X;
+	max-height: X * N;
+}
