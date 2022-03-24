@@ -1,7 +1,7 @@
 .header-area {
 	background-color: #4d77ff;
 }
-.container {
+.mycontainer {
 	max-width: 1140px;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -12,6 +12,7 @@
 	justify-content: space-between;
 	color: #fff;
 	font-size: 20px;
+	height: 75px;
 }
 .header a {
 	color: #fff;
@@ -20,6 +21,7 @@
 .nav-bar ul {
 	display: flex;
 	list-style: none;
+	margin: 0;
 }
 
 .nav-bar ul li {
@@ -41,4 +43,8 @@
 	border-radius: 50%;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+.modal-custom-dialog {
+	margin-top: 75px !important;
+	margin-right: 100px !important;
 }

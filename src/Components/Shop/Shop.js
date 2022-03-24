@@ -12,10 +12,10 @@ const Shop = () => {
     }, [])
     
     return (
-        <div className='container'>
+        <div className='mycontainer'>
             <div className='products-container'>
                 {
-                    products.map(product => <Product product={product}></Product>)
+                    products.map(product => <Product key={product.id} product={product}></Product>)
                 }
             </div>
             
