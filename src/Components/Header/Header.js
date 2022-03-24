@@ -4,7 +4,7 @@ import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
-const Header = () => {
+const Header = ({cart}) => {
     
     return (
         <div className='header-area'>
@@ -15,7 +15,7 @@ const Header = () => {
                         <li><a href="/shop">Shop</a> </li>
                         <li >
                             <a href='/' data-bs-toggle="modal" data-bs-target="#staticBackdrop" type='button'>Cart</a>
-                            <span className='cart-count'>1</span>
+                            <span className='cart-count'>{cart.length}</span>
                         </li>
                     </ul>
                     {/* modal */}
