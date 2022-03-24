@@ -9,7 +9,10 @@ const Header = () => {
                 <nav className='nav-bar'>
                     <ul>
                         <li><a href="/shop">Shop</a> </li>
-                        <li><a href="/cart">Cart</a><span className='cart-count'>1</span></li>
+                        <li>
+                            <a href="/cart">Cart</a>
+                            <span className='cart-count'>1</span>
+                        </li>
                     </ul>
                 </nav>
             </div>
