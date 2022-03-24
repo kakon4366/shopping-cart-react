@@ -3,9 +3,9 @@ import './Header.css';
 // import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import Cart from '../Cart/Cart';
 
 const Header = ({cart}) => {
-    
     return (
         <div className='header-area'>
             <div className="mycontainer header">
@@ -20,18 +20,18 @@ const Header = ({cart}) => {
                     </ul>
                     {/* modal */}
                     <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                      <div className="modal-dialog modal-custom-dialog">
+                      <div className="modal-dialog modal-lg modal-custom-dialog">
                         <div className="modal-content">
                           <div className="modal-header">
-                            <h5 className="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <h5 className="modal-title text-dark" id="staticBackdropLabel">Cart Summary</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
-                          <div className="modal-body">
-                            ...
+                          <div className="modal-body text-dark">
+                            <Cart cart={cart}></Cart>
                           </div>
                           <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Understood</button>
+                            <button type="button" className="btn btn-primary">Purcess</button>
                           </div>
                         </div>
                       </div>

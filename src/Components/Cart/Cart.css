@@ -1,0 +1,11 @@
+.cart-container {
+	display: grid;
+	grid-template-columns: 4fr 2fr;
+	grid-gap: 10px;
+}
+.cart-calculation-container {
+	border: 1px solid #999;
+	border-radius: 10px;
+	margin: 10px;
+	min-height: 400px;
+}
