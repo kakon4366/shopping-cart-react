@@ -12,10 +12,13 @@ const Shop = () => {
     }, [])
     
     return (
-        <div className='products-container'>
-            {
-                products.map(product => <Product product={product}></Product>)
-            }
+        <div className='container'>
+            <div className='products-container'>
+                {
+                    products.map(product => <Product product={product}></Product>)
+                }
+            </div>
+            
         </div>
     );
 };
