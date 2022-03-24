@@ -8,4 +8,8 @@
 	border-radius: 10px;
 	margin: 10px;
 	min-height: 400px;
+	padding: 7px;
+}
+.cart-calculation-container p {
+	font-size: 14px;
 }

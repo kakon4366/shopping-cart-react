@@ -12,7 +12,15 @@ const Cart = ({cart}) => {
                 }   
             </div>
             <div className='cart-calculation-container'>
-                Calculation here
+                <h5 className='text-center mt-2 mb-1'>Summary</h5>
+                <hr className='mt-0' />
+                <p>Total Products: </p>
+                <p>Total Price: </p>
+                <p>Tax: </p>
+                <hr />
+                <h6>Grand Total: </h6>
+
+
             </div>
         </div>
     );
